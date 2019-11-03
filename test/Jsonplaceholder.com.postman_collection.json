@@ -66,61 +66,6 @@
 					"response": []
 				},
 				{
-					"name": "GetScript",
-					"event": [
-						{
-							"listen": "prerequest",
-							"script": {
-								"id": "bb0c475e-e6d8-4207-a3a3-ab1f7d578322",
-								"exec": [
-									"console.log(\"I am a console log in preRequest\");",
-									"console.info(\"I am console Info\");",
-									"console.warn(\"I am console warn\");",
-									"console.error(\"I am console err\");",
-									"",
-									"pm.globals.set(\"url\", \"https://reqres.in/\");"
-								],
-								"type": "text/javascript"
-							}
-						},
-						{
-							"listen": "test",
-							"script": {
-								"id": "75e4912c-eda9-48d0-bde9-43737c23ec42",
-								"exec": [
-									"//tests[\"Status code is 200\"] = responseCode.code === 200;",
-									"//tests[\"Body contains\"] = responsebody === \"michael.lawson@reqres.in\";",
-									""
-								],
-								"type": "text/javascript"
-							}
-						}
-					],
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "https://reqres.in/api/users?page=2",
-							"protocol": "https",
-							"host": [
-								"reqres",
-								"in"
-							],
-							"path": [
-								"api",
-								"users"
-							],
-							"query": [
-								{
-									"key": "page",
-									"value": "2"
-								}
-							]
-						}
-					},
-					"response": []
-				},
-				{
 					"name": "GetUsers",
 					"event": [
 						{
