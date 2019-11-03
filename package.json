@@ -6,7 +6,9 @@
     "test": "test"
   },
   "scripts": {
-    "api-test-prod": "newman run test/Jsonplaceholder.com.postman_collection.json"
+    
+	  "api-test-prod": "newman run test/Jsonplaceholder.com.postman_collection.json"
+ 
   },
   "author": "Tolik",
   

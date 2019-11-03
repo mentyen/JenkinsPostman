@@ -1,0 +1,384 @@
+{
+	"id": "34708920-84dc-4554-a37a-27e3955fbbe5",
+	"name": "Get",
+	"allTests": [],
+	"timestamp": "2019-11-03T22:11:07.024Z",
+	"collection_id": "591f3cf5-e05c-4abc-a551-77dcc1c5bc0a",
+	"folder_id": "cc14cc81-46f1-4186-9581-356ddf632c3b",
+	"target_type": "folder",
+	"environment_id": "7a338397-5e94-45e5-9c5f-1185357dd93e",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "591f3cf5-e05c-4abc-a551-77dcc1c5bc0a",
+		"name": "Jsonplaceholder.com",
+		"order": [],
+		"folders_order": [
+			"cc14cc81-46f1-4186-9581-356ddf632c3b",
+			"e510d208-615e-4808-af56-bac555d61c9a",
+			"d83ace9f-ee79-4107-a287-5e3ea25cd96f",
+			"b39fa2cf-ffe7-4b60-ab56-4fa791f439f3"
+		],
+		"isFavorite": false
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [
+		{
+			"key": "uuid",
+			"value": "dc5bbf1c-b408-40e8-a7f9-ca3f09ad55b5",
+			"enabled": true
+		},
+		{
+			"key": "data",
+			"value": "f7b444fc-6802-4cea-a26b-18ca556f36c2",
+			"enabled": true
+		},
+		{
+			"key": "id",
+			"value": "081979ab-7b1d-4ffb-84e2-ee4335569733",
+			"enabled": true
+		},
+		{
+			"key": "body",
+			"value": "ccf89809-a5fe-414e-b171-2e2fe0c768f4",
+			"enabled": true
+		},
+		{
+			"key": "jsonBody",
+			"value": "c5ce1536-8d4c-472d-877c-475773081018",
+			"enabled": true
+		},
+		{
+			"key": "url",
+			"value": "https://reqres.in/",
+			"enabled": true
+		}
+	],
+	"results": [
+		{
+			"name": "Postman Echo GET",
+			"id": "927dde41-5e7b-47a6-b10a-61cbaca25dcd",
+			"url": "https://postman-echo.com/get",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200__": true,
+				"Content-Type is present": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200__": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"143"
+			],
+			"allTests": [
+				{
+					"Status code is 200__": true,
+					"Content-Type is present": true,
+					"Response time is less than 2000ms": true
+				}
+			],
+			"time": "143",
+			"totalRequestTime": "143",
+			"iterationResults": {}
+		},
+		{
+			"name": "GET Unique ID",
+			"id": "d99c23cb-480c-4bea-a47b-df5773426505",
+			"url": "https://httpbin.org/uuid",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200__": true,
+				"Content-Type is present": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200__": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"101"
+			],
+			"allTests": [
+				{
+					"Status code is 200__": true,
+					"Content-Type is present": true,
+					"Response time is less than 2000ms": true
+				}
+			],
+			"time": "101",
+			"totalRequestTime": "101",
+			"iterationResults": {}
+		},
+		{
+			"name": "GetScript",
+			"id": "83357b20-6be7-464b-8e41-a27c4fe2dc63",
+			"url": "https://reqres.in/api/users?page=2",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200__": true,
+				"Content-Type is present": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200__": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"67"
+			],
+			"allTests": [
+				{
+					"Status code is 200__": true,
+					"Content-Type is present": true,
+					"Response time is less than 2000ms": true
+				}
+			],
+			"time": "67",
+			"totalRequestTime": "67",
+			"iterationResults": {}
+		},
+		{
+			"name": "GetUsers",
+			"id": "ddb5fbb0-9d57-4d84-b2f6-ea106fd9dc5e",
+			"url": "https://jsonplaceholder.typicode.com/posts?userId=1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200__": true,
+				"Content-Type is present": true,
+				"Response time is less than 2000ms": true,
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200__": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"101"
+			],
+			"allTests": [
+				{
+					"Status code is 200__": true,
+					"Content-Type is present": true,
+					"Response time is less than 2000ms": true,
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			],
+			"time": "101",
+			"totalRequestTime": "101",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 14,
+	"totalFail": 0,
+	"totalTime": 412,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "Postman Echo GET",
+			"id": "927dde41-5e7b-47a6-b10a-61cbaca25dcd",
+			"url": "https://postman-echo.com/get",
+			"time": "2019-11-03T22:11:07.024Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200__": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "GET Unique ID",
+			"id": "d99c23cb-480c-4bea-a47b-df5773426505",
+			"url": "https://httpbin.org/uuid",
+			"time": "2019-11-03T22:11:07.024Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200__": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "GetScript",
+			"id": "83357b20-6be7-464b-8e41-a27c4fe2dc63",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": "2019-11-03T22:11:07.024Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200__": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "GetUsers",
+			"id": "ddb5fbb0-9d57-4d84-b2f6-ea106fd9dc5e",
+			"url": "https://jsonplaceholder.typicode.com/posts?userId=1",
+			"time": "2019-11-03T22:11:07.024Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200__": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}

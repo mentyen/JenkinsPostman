@@ -88,7 +88,8 @@
 							"script": {
 								"id": "75e4912c-eda9-48d0-bde9-43737c23ec42",
 								"exec": [
-									"",
+									"//tests[\"Status code is 200\"] = responseCode.code === 200;",
+									"//tests[\"Body contains\"] = responsebody === \"michael.lawson@reqres.in\";",
 									""
 								],
 								"type": "text/javascript"
@@ -99,11 +100,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{url}}api/users?page=2",
+							"raw": "https://reqres.in/api/users?page=2",
+							"protocol": "https",
 							"host": [
-								"{{url}}api"
+								"reqres",
+								"in"
 							],
 							"path": [
+								"api",
 								"users"
 							],
 							"query": [
